@@ -1,4 +1,4 @@
-t/*
+/*
 1. Input a maximum 4-digit integer n. Write a program to read the number n.
  ________________________________________________
 | Input: 1234                                    |
@@ -11,7 +11,7 @@ t/*
 
 int ex1(int testcase){
 	//your codes here
-		int unit =testcase % 10;
+	int unit = testcase % 10;
 		int ten = (testcase / 10) % 10;
 		int hundred = (testcase / 100) % 10;
 		int thousand = testcase / 1000;
@@ -132,13 +132,13 @@ int ex1(int testcase){
 				case 9:{
 					printf("nine ");
 					break;}
-			}
+			}return 0;
 }
 
-int main() {
-	int testcase = 1987;
-	
+int main(int argc, char *argv[]) {
+	int testcase = atoi(argv[1]);
+
 	ex1(testcase);
-		
+
 	return 0;
-}
+} 
