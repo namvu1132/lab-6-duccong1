@@ -1,4 +1,4 @@
-/*
+t/*
 1. Input a maximum 4-digit integer n. Write a program to read the number n.
  ________________________________________________
 | Input: 1234                                    |
@@ -98,7 +98,7 @@ int ex1(int testcase){
 					printf("neventy ");
 					break;}
 				case 8:{
-					printf("nightty ");
+					printf("eighty ");
 					break;}
 				case 9:{
 					printf("ninety ");
