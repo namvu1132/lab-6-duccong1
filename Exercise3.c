@@ -59,7 +59,7 @@ int min(char x[])
     }
     puts(c);
 }
-int main()
+int main(int argc, char *argv[])
 {
 	char x[]="This is a string";
 	max(x);
