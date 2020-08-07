@@ -136,7 +136,7 @@ int ex1(int testcase){
 }
 
 int main() {
-	int testcase = 1234;
+	int testcase = 1987;
 	
 	ex1(testcase);
 		
