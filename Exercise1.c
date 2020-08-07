@@ -135,8 +135,8 @@ int ex1(int testcase){
 			}
 }
 
-int main(int argc, char *argv[]) {
-	int testcase = atoi(argv[1]);
+int main() {
+	int testcase = 1234;
 	
 	ex1(testcase);
 		
