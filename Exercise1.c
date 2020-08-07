@@ -11,10 +11,10 @@
 
 int ex1(int testcase){
 	//your codes here
-		int unit = n % 10;
-		int ten = (n / 10) % 10;
-		int hundred = (n / 100) % 10;
-		int thousand = n / 1000;
+		int unit =testcase % 10;
+		int ten = (testcase / 10) % 10;
+		int hundred = (testcase / 100) % 10;
+		int thousand = testcase / 1000;
 		
 		switch (thousand)
 			{
